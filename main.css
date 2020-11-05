@@ -1,0 +1,217 @@
+/*Generalidades*/
+
+body {
+  font-family: 'Spartan', sans-serif;
+  background: rgba(147,206,222,1);
+  background: -moz-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+  background: -webkit-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+  background: -o-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+  background: -ms-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+  background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+}
+
+.content {
+  background-color: White;
+  -webkit-box-shadow: 12px 13px 22px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: 12px 13px 22px -12px rgba(0,0,0,0.75);
+  box-shadow: 12px 13px 22px -12px rgba(0,0,0,0.75);
+  margin: 4em 2em;
+  border-radius: 10px;
+}
+/*Seccion de arriba*/
+
+/*Primera parte*/
+.title {
+  width: 30%;
+  margin: 5em 8em 0em 8em;
+  display: inline-block;
+
+}
+.title h1 {
+  color: #9400D3;
+  font-size: 2.5em;
+}
+.title p {
+  color: grey;
+}
+
+/*Estrellas*/
+.star {
+  width: 40%;
+  display: inline-block;
+  list-style: none;
+  margin-top: 0em;
+}
+.star li {
+  font-size: 0.8em;
+  background-color: #C0C0C0;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 4px;
+}
+
+.r1 {
+}
+/*Seccion de abajo*/
+
+/*Usuario 1*/
+.user-1 {
+  width: 25%;
+  margin:  -5em 1% 4em 8em;
+  display: inline-block;
+  background-color: #8B008B;
+  border-radius: 4px;
+}
+.user-1 div {
+  float: right;
+  margin: 2em 7.5em 2em 0px;
+}
+
+.user h3 {
+  font-size: 0.8em;
+  color: white;
+  margin-bottom: 0px;
+
+}
+.user h4 {
+  font-size: 0.8em;
+  color: #BA55D3;
+  margin-top: 1px;
+
+}
+
+.user p {
+  color: white;
+  font-size: 0.7em;
+  margin: 1em 3em 3em 3em;
+}
+
+
+img {
+  border-radius: 50%;
+  max-width: 50px;
+  margin: 2em 1em 1em 2em;
+}
+
+/*User 2*/
+
+.user-2 {
+  width: 25%;
+  margin:  4em 1% -2em 1%;
+  display: inline-block;
+  background-color: #8B008B;
+  border-radius: 4px;
+
+
+}
+.user-2 div {
+  float: right;
+  margin: 2em 7.5em 2em 0px;
+
+}
+
+.user-2 h3 {
+  font-size: 0.8em;
+  color: white;
+  margin-bottom: 0px;
+
+}
+.user-2 h4 {
+  font-size: 0.8em;
+  color: #BA55D3;
+  margin-top: 1px;
+
+}
+
+.user-2 p {
+  color: white;
+  font-size: 0.7em;
+  margin: 1em 3em 3em 3em;
+}
+
+
+img {
+  border-radius: 50%;
+  max-width: 50px;
+  margin: 2em 1em 1em 2em;
+}
+
+/*User 3*/
+.user-3 {
+  width: 25%;
+  margin:  3em 6.5em 0.5em 1%;
+  display: inline-block;
+  background-color: #8B008B;
+  border-radius: 4px;
+}
+
+.user-3 div {
+  float: right;
+  margin: 2em 7.5em 2em 0px;
+
+}
+
+.user-3 h3 {
+  font-size: 0.8em;
+  color: white;
+  margin-bottom: 0px;
+
+}
+.user-3 h4 {
+  font-size: 0.8em;
+  color: #BA55D3;
+  margin-top: 1px;
+
+}
+
+.user-3 p {
+  color: white;
+  font-size: 0.7em;
+  margin: 1em 3em 3em 3em;
+}
+
+
+img {
+  border-radius: 50%;
+  max-width: 50px;
+  margin: 2em 1em 1em 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Pie*/
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }

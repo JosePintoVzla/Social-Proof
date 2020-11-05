@@ -1,0 +1,139 @@
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.content {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  font-family: 'Spartan', sans-serif;
+  background-color: White;
+  -webkit-box-shadow: 12px 13px 22px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: 12px 13px 22px -12px rgba(0,0,0,0.75);
+  box-shadow: 12px 13px 22px -12px rgba(0,0,0,0.75);
+  margin: 4em 4em;
+  border-radius: 10px;
+  flex-flow: wrap;
+
+}
+/*Seccion de arriba*/
+
+/*Primera parte*/
+.title {
+  width: 30%;
+  flex-flow: wrap;
+  margin: 4em 0em 4em 8em;
+}
+
+.title h1 {
+  color: #9400D3;
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+.title p {
+  color: grey;
+  font-size: 0.8em;
+  margin-right: -5em;
+}
+
+/*Estrellas*/
+.star {
+  width: 30%;
+  list-style: none;
+  color: #9400D3;
+  margin: 7em 4em 0em 8em;
+}
+.star li {
+  font-size: 0.8em;
+  background-color: #F2F2F2;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 4px;
+}
+.star .r1 {
+  margin: auto 5em auto -5em;
+
+}
+.star .r2 {
+  margin: 1em 1em auto -2.5em;
+
+}
+.star .r3 {
+  margin: 1em -3em auto 0em;
+
+}
+
+/*Seccion de abajo*/
+
+
+
+img {
+  border-radius: 50%;
+  width: 50px;
+  flex-flow: wrap;
+  margin: 2em 0em 1em 2em;
+}
+.abajo {
+  display: flex;
+  justify-content: center;
+}
+.veri {
+  color: #BA55D3;
+}
+
+.user {
+  width: 25%;
+  margin:  1em;
+  background-color: #8B008B;
+  border-radius: 4px;
+}
+
+.user div {
+  display: flex;
+
+}
+.user ul {
+  list-style: none;
+  font-size: 0.8em;
+  margin: 3.25em 2em 1em -1em;
+}
+.user .Si {
+  color: white;
+  margin-bottom: .5em;
+}
+
+.user p {
+  color: white;
+  font-size: 0.7em;
+  margin: 1em 2em 3em 2em;
+}
+
+/*Usuario 1*/
+.principal{
+  margin-top: -2em;
+  margin-bottom: 7em;
+}
+
+/*Usuario 2*/
+
+.secundario{
+  margin-top: -.5em;
+  margin-bottom: 6em;
+}
+
+/*Usuario 3*/
+.tercero{
+
+  margin-bottom: 5em;
+}
+
+
+/*Pie*/
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
